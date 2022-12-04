@@ -1,0 +1,61 @@
+
+.block-container {
+  height: 110rem;
+  background-color: rgb(102, 113, 89);
+  color: white;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.block-container h1{ 
+  padding-bottom: 3rem;
+  font-size: 8rem;
+  font-weight: 100;
+}
+
+.block-container h2{ 
+  padding-bottom: 3rem;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.block-container .main-btn {
+  justify-self: center;
+  width: 50%;
+  font-size: 2.2rem;
+  height: 8rem;
+  letter-spacing: 1px;
+  margin-top: 5rem;
+}
+
+@media screen and (min-device-width: 600px) {
+  .block-container {
+    height: 100vh;
+  }
+  .block-container h1 { 
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+  }
+  .block-container h2 { 
+    font-weight: 100;
+    font-size: 1.1rem;
+  }
+  .block-container .main-btn {
+    font-weight: 300;
+    font-size: 1.2rem;
+    height: 5rem;
+    width: 12rem;
+  }
+}
+
+@media screen and (min-device-width: 800px) {
+  .block-container {
+    height: 90rem;
+  }
+}
+
+@media screen and (min-device-width: 1100px) {
+  .block-container {
+    height: 100rem;
+  }
+}

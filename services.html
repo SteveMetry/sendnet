@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="imgs/siteIcon.png">
+  <title>SENDNET.CO | steve's profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="styles/components.css" rel="stylesheet"/>
+  <link href="styles/services.css" rel="stylesheet"/>
+  <meta name="title" content="sendnet">
+  <meta name="description" content="we create, host and maintain websites for service based industries">
+  <meta name="keywords" content="sendnet, sendnet.co, send, net, website creation, website design, website develop, SendNet, Send Net, webdesign">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="1 days">
+  <meta name="author" content="steven metry">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <img class="nav-logo" src="imgs/whitelogo.png" alt="logo">
+    </div>
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services I Can Provide</a>
+      <a href="projects.html">Past Work</a>
+      <button onclick="goToDifferentPage('contact')" class="main-btn">Contact Me</button>
+    </div>
+  </nav>
+  <main class="main-services-container flex flex-col">
+    <video class="services-video mt-12" controls muted poster="imgs/service-vid-thumb.png">
+      <source src="videos/sendnet01.mp4" type="video/mp4" alt="our immersive 3D cinematic designs">
+      Your browser does not support the video tag.
+    </video>
+    <h3 class="font-thin p-6 mb-10">Nature Apartment</h3>
+    <div class="flagship-service-container">
+      <h1>Our Flagship Service</h1>
+      <h2>Immersive Designs</h2>
+      <h3>Through Cutting Edge software and the most skilled workers, Our Design Team can make your ideas into a real-world visualization of your plans.</h3>
+      <h2>These designs are best for</h2>
+      <h3>Companies needing a lnading page to showcase work and let users book your service.</h3>
+      <h3>Developers who want the best marketing and who want to see sales funnels grow online.</h3>
+      <h3>Teams who want to see prototype looks of designs. </h3>
+      <button onclick="goToDifferentPage('services')" class="main-btn m-auto text-sm">Get a Quote</button>
+    </div>
+    <h3 class="mt-24 text-center font-mono font-thin text-5xl">Services:</h3>
+    <div class="cards-container">
+      <div class="each-card-container">
+        <img src="imgs/nzarchviz.png" alt="interrier Realistic Photo Render of a home in queenstown">
+          <h2>NZARCHVIZ</h2>
+          <p>
+            The Landing Page has the main purpose of drawing in the viewer to see what you can offer. We use cutting-edge softwares that allows us to create heat maps from your designs and make adjustments to maximize lead generation.
+          <br>  
+            Every Site has a landing page but people expect a level of activity or life in any custom or high-end Site.   
+         </p>
+        <a href="https://www.nzarchviz.co.nz" class="m-auto">Explore</a>
+      </div>
+      <div class="each-card-container">
+        <img src="imgs/ecomstore-nextJS.png" alt="3D Floor Plan Realistic Photo Render">
+          <h2>Ecomstore NextJs</h2>
+          <hr>
+          <h3>Online Stores provide 2 main purposes.</h3>
+          <p>
+            1st - a visual blueprint of your shop. Whether for Physical or Digital Products/Services, a Online Store is important as it allows a risk-free way for users to view your product. ecommerce store is easily accessible to people which brings more people to your door.
+          <br>
+          2nd - as a marketing tool. The majority of major companies have a digital presence, including a website. The market has taken a huge liking towards online marketing simplicity because it's more easily accessible to users, websites are easily scalable physical stores are not.
+          </p>
+        <a href="https://ecomstore-nextjs-demo.vercel.app" class="m-auto">Explore</a>
+      </div>
+      <div class="each-card-container">
+        <img src="imgs/github.png" alt="Exterior Realistic Photo Render of a Small Modern Family Home">
+          <h2>More on Github..</h2>
+          <p>
+            The Exterior shot has the main purpose of showing off the house as an attractive asset. Plain and simple people want to have nice things, A mediocre car and a Mercedes will still get you to the same place but one is a positive extension of yourself and the other is a negative display of it. 
+          <br>
+            The Exterior shot also serves for the client to adjust any major concerns with materials,  or anything that doesn't fit right.
+          </p>
+        <a href="https://github.com/stevemetry" class="m-auto">Explore</a>
+      </div>
+    </div>
+  </div>
+    <img class="full-img" src="imgs/summerFamily.png" alt="realistic render of the exterior of a home">
+    <div class="content-container">
+      <h1>Sendnet Strives for Designing Excellence at an Affordable price</h1>
+      <h3>Let us Prove How Much Your Customers Will Appreciate The difference We Make</h3>
+      <button onclick="goToDifferentPage('services')" href="services.html" class="main-btn m-auto">Get a Quick Quote</button>
+    </div>
+    <div class="main-contact-container">
+      <div class="site-info-container">
+        <h1>Contact Us.</h1>
+        <p>
+          <h5>Email:<a href="mailto:steven@sendnet.co" class="underline">hello@sendnet.co</a></h5> 
+          <h5>Phone:<a href="tel:+64211808620" class="underline">+64 21 180 8620</a></h5>
+        </p>
+        <div class="social-media-icons">
+          <img src="imgs/facebook-icon.png" alt="Facebook Icon">
+          <img src="imgs/instagram-icon.png" alt="Instagram Icon">
+        </div>
+      </div>
+      <form id="servicesContactForm" class="contact-form p-6 m-auto"  onsubmit="submitQuery(event, 'servicesContactForm')">
+        <div class="font-thin">
+          <input
+            required  
+            placeholder="Full Name"
+            name="name"
+            class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              border
+              border-solid
+              border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              mb-6
+              focus:border-blue-600
+              focus:outline-none
+            " 
+          />
+          <input 
+            placeholder="Subject"
+            name="subject"
+            class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              border
+              border-solid
+              border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              mb-6
+              focus:border-blue-600
+              focus:outline-none
+            " 
+          />
+          <textarea
+            required
+            placeholder="Body"
+            name="body"
+            rows="3"
+            class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              border
+              border-solid
+              border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              mb-6
+              focus:border-blue-600
+              focus:outline-none
+            " 
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="main-btn bg-black white m-auto"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-left">
+      <h3 class="font-mono">SENDNET</h3>
+    </div>
+    <div class="footer-right">
+      <h3 class="font-mono">Projects:</h3>
+      <a href="projects.html#floorPlans">3D Floor Plans</a>
+      <a href="projects.html#Interrier">Interriers</a>
+      <a href="projects.html#exterior">Exteriors</a>
+    </div>
+  </footer>
+  <script src="components.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+html {
+	scroll-behavior: smooth;
+}
+.main-projects-container video {
+  width: 75vw;
+}
+.main-projects-container > h1 {
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: 200;
+  font-size: 3.2rem;
+}
+.projects-container {
+  padding: 1rem;
+  margin: 0.1rem;
+}
+.projects-container h1{
+  padding: 0.7rem 0rem;
+}
+.projects-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
