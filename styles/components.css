@@ -129,7 +129,7 @@ footer a {
   font-weight: 200;
 }
 
-.each-card-container a{
+.black-a-btn{
   color: white;
   background-color: black;
   letter-spacing: 1px;
@@ -274,7 +274,7 @@ footer a {
     width: 30vw;
     height: 30vh;
   }
-  .each-card-container a {
+  .black-a-btn {
     font-weight: 300;
     font-size: 1.2rem;
     height: 5rem;
