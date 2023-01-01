@@ -1,0 +1,61 @@
+.cards-sections {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.cards-sections section{
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.cards-sections section div{ 
+  padding: 3rem;
+}
+
+.cards-sections img{
+  width: 65vw;
+  margin: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 50px -12px rgba(0,0,0,0.75);
+}
+
+.cards-sections h1 {
+  font-weight: 600;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-bottom: 0.7rem;
+}
+
+.cards-sections p {
+  font-weight: 200;
+  font-size: 2.3rem;
+  text-align: left;
+  padding-top: 0.8rem;
+}
+
+.cards-sections .reverse-card {
+  flex-direction: column-reverse;
+}
+.cards-sections .noshadow{
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0);
+}
+@media screen and (min-device-width: 600px) {
+  .cards-sections section{
+    flex-direction: row;
+  }
+  .cards-sections img{
+    width: 40vw;
+  }
+  .cards-sections h1 {
+    font-size: 1.8rem;
+  }
+  .cards-sections p {
+    font-size: 1.3rem;
+  }
+  .cards-sections .reverse-card {
+    flex-direction: row;
+  }
+}

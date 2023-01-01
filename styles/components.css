@@ -90,6 +90,7 @@ footer a {
 .nav-left {
   display: flex;
   justify-content: space-between;
+  margin: auto;
 }
 
 .nav-right {
@@ -203,6 +204,9 @@ footer a {
 }
 
 @media screen and (min-device-width: 600px) {
+  .nav-left {
+    margin: 0px;
+  }
   .main-contact-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;

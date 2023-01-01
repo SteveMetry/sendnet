@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDC0DBEE92"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -9,6 +10,8 @@
 
     gtag('config', 'G-SDC0DBEE92');
   </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3159767499477222"
+  crossorigin="anonymous"></script>
   <link rel="icon" href="imgs/siteIcon.png">
   <title>SENDNET SERVICES | SENDNET'S PRICING</title>
   <script src="https://cdn.tailwindcss.com"></script>
@@ -25,25 +28,54 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://sendnet.co/",
+      "logo": "https://sendnet.co/imgs/whiteLogo.png",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://shop.sendnet.co?search={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "video": {
+        "@type": "VideoObject",
+        "name": "Sendnet's Services - Sendnet",
+        "uploadDate": "2022-12-18T08:00:00+08:00",
+        "thumbnailUrl": [
+        "https://sendnet.co/images/service-vid-thumb.png"
+      ],
+        "description": "This is a short video about who sendnet is as a company",
+        "contentUrl": "https://sendenet.co/sendnet01.mp4"
+       }
+    }
+    </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "url": "https://sendnet.co/services.html",
+      "logo": "https://sendnet.co/imgs/whiteLogo.png",
       "@type": "ItemList",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
-          "url": "https://example.com/apple-pie.html"
+          "url": "https://sendnet.co/services.html#nzarchvizItem"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "url": "https://example.com/blueberry-pie.html"
+          "url": "https://sendnet.co/services.html#sendnetShopItem"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "url": "https://example.com/cherry-pie.html"
+          "url": "https://sendnet.co/services.html#githubItem"
         }]
     }
     </script>
+    <link rel="canonical" href="https://sendnet.co/services.html" />
 </head>
 <body>
   <nav class="navbar">
@@ -52,9 +84,10 @@
     </div>
     <div class="nav-right">
       <a hreflang="en-us" href="index.html">Home</a>
-      <a hreflang="en-us" href="services.html">Services I Can Provide</a>
+      <a hreflang="en-us" href="designs.html">Templates</a>
+      <a hreflang="en-us" href="services.html">Our Services</a>
       <a hreflang="en-us" href="projects.html">Past Work</a>
-      <button onclick="goToDifferentPage('contact')" class="main-btn">Contact Us</button>
+      <a hreflang="en-us" href="contact.html">Contact Us</a>
     </div>
   </nav>
   <main class="main-services-container flex flex-col">
@@ -73,9 +106,21 @@
       <h3>Teams who want to see prototype looks of designs. </h3>
       <button onclick="goToDifferentPage('services')" class="main-btn m-auto text-sm">Get a Quote</button>
     </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3159767499477222"
+     crossorigin="anonymous"></script>
+    <!-- Horizontal-Responsive-01 -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-3159767499477222"
+        data-ad-slot="2178897628"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
     <h3 class="mt-24 text-center font-mono font-thin text-5xl">Services:</h3>
     <div class="cards-container">
-      <div class="each-card-container">
+      <div id="nzarchvizItem" class="each-card-container">
         <img src="imgs/nzarchviz.png" alt="Past Work we did for nzarchviz">
           <h2>NZARCHVIZ</h2>
           <p>
@@ -85,9 +130,9 @@
          </p>
         <a hreflang="en-us" href="https://www.nzarchviz.co.nz" class="m-auto black-a-btn">Explore</a>
       </div>
-      <div class="each-card-container">
-        <img src="imgs/ecomstore-nextJS.png" alt="Previous Ecommerce Store">
-          <h2>Ecomstore - Nextjs</h2>
+      <div id="sendnetShopItem" class="each-card-container">
+        <img src="imgs/laptop02.png" alt="Previous Ecommerce Store">
+          <h2>Sendnet Shop - Ecoomerce store demo</h2>
           <hr>
           <h3>Online Stores provide 2 main purposes.</h3>
           <p>
@@ -97,7 +142,7 @@
           </p>
         <a hreflang="en-us" href="https://shop.sendnet.co" class="m-auto black-a-btn">View Demo</a>
       </div>
-      <div class="each-card-container">
+      <div id="githubItem"class="each-card-container">
         <img src="imgs/github.png" alt="Some Example Work Hosted On Github - Sendnet's Github Profile">
           <h2>More on Github..</h2>
           <p>
@@ -211,6 +256,14 @@
       </form>
     </div>
   </main>
+  <amp-ad width="100vw" height="320"
+      type="adsense"
+      data-ad-client="ca-pub-3159767499477222"
+      data-ad-slot="9349934262"
+      data-auto-format="rspv"
+      data-full-width="">
+    <div overflow=""></div>
+  </amp-ad>
   <footer>
     <div class="footer-left">
       <h3 class="font-mono">SENDNET</h3>

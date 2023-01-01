@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDC0DBEE92"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -9,13 +10,15 @@
   
     gtag('config', 'G-SDC0DBEE92');
   </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3159767499477222"
+  crossorigin="anonymous"></script>
   <link rel="icon" href="imgs/siteIcon.png">
-  <title>SENDNET.CO | SENDNET - Cutting Edge</title>
+  <title>SENDNET | SENDNET.CO - Cutting Edge</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="styles/components.css" rel="stylesheet"/>
   <link href="styles/index.css" rel="stylesheet"/>
   <meta name="title" content="sendnet">
-  <meta name="description" content="We Create, Host && Maintain websites for service based industries, all for a 1 OFF Payment">
+  <meta name="description" content="Sendnet Creates, Host && Maintain websites for service based industries, all for a 1 OFF Payment">
   <meta name="keywords" content="sendnet, sendnet.co, send, net, website creation, website design, website develop, SendNet, Send Net, webdesign, sendet, contact sendnet today, NZ Website Designers">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -25,9 +28,35 @@
   <meta name="og:title" property="og:title" content="Sendnet Builds Your Websites AND Maintain your website for a one time payment">
   <script type="application/ld+json">
     {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name" : "Sendnet",
+      "url": "https://sendnet.co/",
+      "logo": "https://sendnet.co/imgs/whiteLogo.png",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://shop.sendnet.co?search={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "name" : "Sendnet",
+      "@type": "Organization",
+      "url": "https://sendnet.co",
+      "logo": "https://sendnet.co/imgs/whiteLogo.png"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
       "@context": "https://schema.org/",
       "@type": "Product",
-      "name": "Basic Static Page Website",
+      "name": "Basic Static Page Website - free consultation included",
       "description": "A standered business Website that allows end-users to view your services, book in appointments, contact your business.",
       "review": {
         "@type": "Review",
@@ -48,6 +77,7 @@
       }
     }
     </script>
+    <link rel="canonical" href="https://sendnet.co/" />
 </head>
 <body>
   <nav class="navbar">
@@ -56,29 +86,30 @@
     </div>
     <div class="nav-right">
       <a hreflang="en-us" href="index.html">Home</a>
-      <a hreflang="en-us" href="services.html">Services I Can Provide</a>
+      <a hreflang="en-us" href="designs.html">Templates</a>
+      <a hreflang="en-us" href="services.html">Our Services</a>
       <a hreflang="en-us" href="projects.html">Past Work</a>
-      <button onclick="goToDifferentPage('contact')" class="main-btn">Contact Us</button>
+      <a hreflang="en-us" href="contact.html">Contact Us</a>
     </div>
   </nav>
   <main class="main-content">
   <div class="content-container">
     <h1>Hello, Welcome to Sendnet</h1>
     <h3>Professional Secure Sites Created using cutting-edge Languages</h3>
-    <button onclick="goToDifferentPage('services')" class="main-btn m-auto">Explore</button>
+    <a hreflang="en-us" href="services.html" class="black-a-btn m-auto">Explore</a>
   </div>
   <img src="imgs/sendnet-landing-pg.png" alt="Sendnet Home Page, Advetising Sendnet's Services">
     <div class="content-container">
       <h1>Make your Site Stand Out</h1>
       <h3>Immersive Cinematic Sites is the Future of Marketing. With NextJs u can take your users through your Sales Funnel with Speed.</h3>
-      <button onclick="goToDifferentPage('services')" class="main-btn m-auto">Explore</button>
+      <a hreflang="en-us" href="services.html" class="black-a-btn m-auto">Explore</a>
     </div>
     <img src="imgs/devolper-infront-of-desk.jpeg" alt="Sendnet Web Devolper working infront of desk">
     <div class="block-container">
         <h1>Actions Speak Louder than Words</h1>
         <h2>Sell your work by showing end-users what they’re buying</h2>
       <img src="imgs/laptop.png" alt="large-laptop that advertise one of our website templates">
-      <button onclick="goToDifferentPage('projects')" class="main-btn m-auto">Past Work</button>
+      <a hreflang="en-us" href="projects.html" class="black-a-btn m-auto">Past Work</a>
     </div>
     <div class="main-cards-container">
       <h3 class="mt-24 text-center font-mono font-thin text-5xl">People Judge Books by their Covers, Be the one they pick.</h3>
@@ -95,7 +126,7 @@
         </div>
         <div class="each-card-container">
           <img src="imgs/laptop02.png" alt="Previous Ecommerce Store - shop.sendnet.co">
-            <h2>Ecommerce Store - NextJs</h2>
+            <h2>Shop Sendnet - View Demo Eccomerce Store</h2>
             <hr>
             <h3>Online Stores provide 2 main purposes.</h3>
             <p>
@@ -123,12 +154,32 @@
     <img src="imgs/laptop02.png" alt="View A Demo Of a Ecommerce Store We can Build for Your">
       <a hreflang="en-us" href="https://shop.sendnet.co" class="m-auto black-a-btn">View Demo</a>
   </div>
+  <amp-ad width="100vw" height="320"
+      type="adsense"
+      data-ad-client="ca-pub-3159767499477222"
+      data-ad-slot="9349934262"
+      data-auto-format="rspv"
+      data-full-width="">
+    <div overflow=""></div>
+  </amp-ad>
     <img src="imgs/team-img.jpeg" alt="Sendnet Team Members Group Photo">
     <div class="content-container">
       <h1>Sendnet Strives for Design Excellence at an Affordable price</h1>
       <h3>Let us prove how much your Customers will appreciate The difference we make.</h3>
-      <button onclick="goToDifferentPage('services')" class="main-btn m-auto">Get a Quick Quote</button>
+      <a hreflang="en-us" href="services.html" class="black-a-btn m-auto">Get a Quick Quote</a>
     </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3159767499477222"
+     crossorigin="anonymous"></script>
+    <!-- another one -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-3159767499477222"
+        data-ad-slot="9349934262"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
     <img src="imgs/sendnet-banner.png" class="w-full" alt="SendNet's Advertising Banner">
   <div class="main-contact-container">
     <div class="site-info-container">
@@ -142,6 +193,18 @@
         <img src="imgs/instagram-icon.png" alt="Instagram Icon">
       </div>
     </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3159767499477222"
+     crossorigin="anonymous"></script>
+    <!-- Horizontal-Responsive-01 -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-3159767499477222"
+        data-ad-slot="2178897628"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
       <form id="indexContactForm" class="contact-form p-6 m-auto" onsubmit="submitQuery(event, 'indexContactForm')">
         <div class="font-thin">
           <input
@@ -219,12 +282,24 @@
         </div>
         <button
           type="submit"
-          class="main-btn bg-black white m-auto"
+          class="black-a-btn bg-black white m-auto"
         >
           Send
         </button>
       </form>
   </div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3159767499477222"
+     crossorigin="anonymous"></script>
+<!-- Horizontal-Responsive-01 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3159767499477222"
+     data-ad-slot="2178897628"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
   <footer>
     <div class="footer-left">
       <h3 class="font-mono">SENDNET</h3>
